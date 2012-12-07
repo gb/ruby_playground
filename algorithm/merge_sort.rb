@@ -2,11 +2,11 @@ require 'test/unit'
 
 class MergeSortTest < Test::Unit::TestCase
 	def test_it_return_itself_when_merge_sort_an_empty_array
-		assert_equal [], mergeSort([])
+		assert_equal[], mergeSort([])
 	end
 
 	def test_it_return_itself_when_merge_sort_an_single_element_array
-		assert_equal [1], mergeSort([1])
+		assert_equal[1], mergeSort([1])
 	end
 
 	def test_it_return_an_ordered_array_when_merge_sort_an_array
